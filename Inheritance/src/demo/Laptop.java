@@ -9,7 +9,4 @@ public class Laptop {
 	
 }
 
-class Car {
-	Wheels wh;
-	
-}
+

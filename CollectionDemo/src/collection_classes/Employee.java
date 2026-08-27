@@ -1,7 +1,5 @@
 package collection_classes;
 
-
-
 public class Employee implements Comparable<Employee>
 // we need compareTo() for sorting
 // interface Comparable declares this abstract method compareTo

@@ -9,8 +9,8 @@ public abstract class Account {
 	 abstract public void login(String username, String password);
 	 
 	 public static void main(String[] args) {
-		 Account a =new Account(); // we cant create the object of abstract class
-		  a.deposit(1000);
+		// Account a =new Account(); // we cant create the object of abstract class
+		  //a.deposit(1000);
 		  
 		  SavingAccount sa = new SavingAccount();
 		  sa.deposit(10000);

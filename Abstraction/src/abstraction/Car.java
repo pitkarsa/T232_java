@@ -12,7 +12,7 @@ public abstract class Car {
 	// abstraction: showing the functionality, hiding the implementation
 	// methods are declared (no implementation)
 	// every child class must override the parent's abstract methods
-	 public void start();
+	 public abstract void start();
 	abstract public void stop();
 	static final String brand = "BMW";
 	public String model;
