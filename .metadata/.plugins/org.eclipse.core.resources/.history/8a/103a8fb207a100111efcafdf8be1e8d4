@@ -1,9 +1,0 @@
-package collection_classes;
-
-public class Employee {
-	int empId, salary;
-	String name;
-	String password;
-	
-	
-}

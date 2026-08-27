@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;overloading.Maths&apos; to &apos;Shape&apos;&#x0D;&#x0A;- Original project: &apos;Inheritance&apos;&#x0D;&#x0A;- Original element: &apos;overloading.Maths&apos;&#x0D;&#x0A;- Renamed element: &apos;overloading.Shape&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Maths&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;overloading{Maths.java[Maths" matchStrategy="1" name="Shape" qualified="false" references="true" similarDeclarations="false" stamp="1785991758428" textual="false" version="1.0"/>
-</session>
