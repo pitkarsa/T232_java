@@ -1,0 +1,27 @@
+package maps_demo;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class MapDemo {
+	public static void main(String[] args) {
+		//Map<String, Long> contacts = new HashMap<>();// 1 null key allowed
+//		Map<String, Long> contacts = new LinkedHashMap<>();// 1 null key allowed
+		TreeMap<String, Long> contacts = new TreeMap<>();// null key is not allowed
+		
+		contacts.put("Amit", 987678986L);
+		contacts.put("tushar", 987678967L);
+		contacts.put("nikhil", 987678943L);
+		contacts.put("Tejas", 987678922L);
+		contacts.put("Ronit", 987678933L);
+		
+		System.out.println(contacts);
+		contacts.put("Ronit", 987678900L);
+		System.out.println(contacts);
+		
+		System.out.println(contacts.get("tushar"));
+		
+		
+	}
+}

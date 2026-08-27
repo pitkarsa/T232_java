@@ -1,0 +1,36 @@
+package day1;
+
+public class WrapperDemo {
+	public static void main(String[] args) {
+		int x=10; // 4Bytes
+		// implicit conversion
+		Integer intObj = x;// autoboxing		
+		int y = intObj ; // auto-unboxing
+
+		// explicit conversion
+		int num=100;
+		Integer numObj = Integer.valueOf(num);		
+		int numPrimitive = numObj.intValue();
+		
+		
+		byte b=100;
+		Byte b1 = 100;
+
+	}
+	/*
+	 Wrapper classes:
+wrappers around the primitives
+
+byte - Byte
+short - Short
+int - Integer
+long - Long
+float - Float
+double - Double
+boolean - Boolean
+char - Character
+
+primitive --> object     boxing
+object --> primitive    unboxing
+	 */
+}

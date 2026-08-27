@@ -1,0 +1,38 @@
+package day1;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+	public static void main(String[] args) {
+		LinkedList<Integer> myList = new LinkedList<>();
+		myList.add(100);
+		myList.add(77);
+		myList.add(9);
+		myList.add(800);
+		myList.add(84);
+		myList.add(33);
+		myList.add(9);
+		myList.add(null);
+		System.out.println(myList);
+		
+		myList.add(1,50);
+		System.out.println(myList);
+		
+		int data = 33;
+		
+//		myList.add(data);// data=35 is considered as index, IOOBE
+		int index = myList.indexOf(data);
+		if(index >=0)
+			myList.remove(index);// 
+		else
+			System.out.println("sorry cant remove the object " + data+" as it is not present");
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

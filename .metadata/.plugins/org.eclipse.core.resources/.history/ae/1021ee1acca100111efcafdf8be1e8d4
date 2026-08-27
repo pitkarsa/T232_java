@@ -1,0 +1,35 @@
+package sorting;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+
+import collection_classes.Employee;
+
+public class Company {
+	public static void main(String[] args) {
+		List<Employee> allEmployees = new ArrayList<>();
+		allEmployees.add(new Employee());
+		allEmployees.add(new Employee(104, 60000, "Rohit","rohit@123"));
+		allEmployees.add(new Employee(101, 50000, "Amit","amit@123"));		
+		allEmployees.add(new Employee(103, 20000, "Tejas","tejas@123"));		
+		allEmployees.add(new Employee(105, 30000, "Pooja","pooja@123"));
+		allEmployees.add(new Employee(102, 45000, "Neha","neha@123"));
+		
+//		System.out.println(allEmployees);
+//		Iterator<Employee> itr = allEmployees.iterator();
+//		while(itr.hasNext()) {
+//			Employee e = itr.next();
+//			System.out.println(e);
+//		}
+		
+		Collections.sort(allEmployees); // e1.compareTo(e2);
+		
+		Iterator<Employee> itr = allEmployees.iterator();
+		while(itr.hasNext()) {
+			Employee e = itr.next();
+			System.out.println(e);
+		}
+	}
+}

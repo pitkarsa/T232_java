@@ -1,0 +1,26 @@
+package collection_classes;
+
+import java.util.PriorityQueue;
+
+public class QDemo {
+	/*
+	  allows duplicates
+	  unordered
+	  null is not allowed
+	  it has its own methods... peek, poll, offer
+	  
+	  
+	 */
+	public static void main(String[] args) {
+		PriorityQueue<Integer> q = new PriorityQueue<>();
+		q.add(10);
+		q.add(56);
+		q.add(4);
+		q.add(55);
+//		q.add(null);
+		q.add(10);
+		q.add(43);
+		System.out.println(q);
+	}
+	
+}

@@ -1,0 +1,10 @@
+package maps_demo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+	public static void main(String[] args) {
+		Map<String, Long> contacts = new HashMap<>();
+	}
+}

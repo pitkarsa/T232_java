@@ -1,0 +1,27 @@
+package sorting;
+
+public class Employee {
+	// POJO - plain old java object
+		// model(data) class
+		int empId, salary;
+		String name;
+		String password;
+		
+		public Employee(){
+			
+		}
+		
+		public Employee(int empId, int salary, String name,	String password) {
+			this.name=name;
+			this.salary=salary;
+			this.password=password;
+			this.empId= empId;
+		}
+
+		@Override
+		public String toString() {
+			return "Employee [empId=" + empId + ", salary=" + salary + ", name=" + name + ", password=" + password + "]";
+		}
+		
+		
+	}

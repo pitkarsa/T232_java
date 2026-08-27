@@ -1,0 +1,14 @@
+package day1;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Vector;
+
+public class VectorDemo {
+	public static void main(String[] args) {
+		Collection c = new ArrayList();
+		Vector<Integer> v = new Vector<>();
+		System.out.println(v.size());// 0
+		System.out.println(v.capacity());// 10
+	}
+}

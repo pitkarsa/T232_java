@@ -1,0 +1,20 @@
+package day1;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Collection1 {
+	public static void main(String[] args) {
+		// collection is a way to store multiple object s into a single object
+		
+		// array is static - collection is dynamic 
+		// collection is growable and shrinkable
+		
+		// inbuilt methods for DML
+		
+		
+		// 
+		Collection c = new ArrayList<>();
+		
+	}
+}

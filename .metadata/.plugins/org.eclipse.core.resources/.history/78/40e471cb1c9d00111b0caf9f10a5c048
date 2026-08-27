@@ -1,0 +1,56 @@
+package day1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListDemo {
+	public static void main(String[] args) {
+		// List is ordered collection
+		// List allows null and duplicates
+		// List supports indexing - all the index based methods
+		// 
+		List<String> names = new ArrayList<>();
+		names.add("Amit");
+		names.add("Neha");
+		names.add(null);
+		names.add("Nikhil");
+		names.add(null);
+		names.add("Neha");
+		names.add("Tushar");
+		names.add("Neha");
+//		System.out.println(names);
+		// indexing
+//		System.out.println(names.get(0));
+//		System.out.println(names.get(7));
+////		System.out.println(names.get(8));
+		names.add(8,"Pooja");
+		
+		List<String> data = new ArrayList<String>();
+		data.add("one");
+		data.add("two");
+		data.add("three");
+		
+		names.addAll(data);
+		System.out.println(names);
+		names.addAll(0,data);
+		System.out.println(names);
+		
+		names.remove(0); // index 0
+		names.remove("Pooja"); // object
+		
+		System.out.println(names);
+		names.removeAll(data);
+		System.out.println(names);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

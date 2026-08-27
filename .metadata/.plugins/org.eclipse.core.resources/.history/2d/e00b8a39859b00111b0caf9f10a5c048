@@ -1,0 +1,11 @@
+package day1;
+
+
+class Merc  implements Runnable {
+
+	@Override
+	public void run() {
+		
+	}
+	
+}

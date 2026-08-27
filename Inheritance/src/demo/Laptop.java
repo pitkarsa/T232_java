@@ -1,0 +1,15 @@
+package demo;
+
+public class Laptop {
+    AsusMB motherboard;
+	String model;
+	
+	MotherBoard mb = new GigabyteMB();
+	
+	
+}
+
+class Car {
+	Wheels wh;
+	
+}

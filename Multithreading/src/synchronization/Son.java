@@ -1,0 +1,16 @@
+package synchronization;
+
+public class Son implements Runnable {
+	Bank b;
+	Thread t;
+	
+	public Son(Bank b) {
+		this.b=b;
+		t  = new Thread(this);
+		t.start();
+	}
+	
+	public void run() {
+		b.withdraw();
+	}
+}

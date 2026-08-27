@@ -1,0 +1,11 @@
+package day1;
+
+
+public class RunnableChild  implements Runnable {
+
+	@Override
+	public void run() {
+		
+	}
+	
+}

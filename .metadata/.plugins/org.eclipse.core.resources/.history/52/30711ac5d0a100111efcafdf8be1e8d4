@@ -1,0 +1,49 @@
+package sorting;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class College {
+	public static void main(String[] args) {
+		List<Student> students = new ArrayList<>();
+		students.add(new Student(101,"Nitin",67.45));
+		students.add(new Student(106,"Aarati",77.45));
+		students.add(new Student(104,"Priya",73.45));
+		students.add(new Student(103,"Tushar",83.45));
+		students.add(new Student(105,"Ketan",62.56));
+		students.add(new Student(102,"Amit",62.45));
+		
+		
+	}
+}
+
+
+class SortStudentById implements Comparator<Student>{
+
+	@Override
+	public int compare(Student s1, Student s2) {
+		// TODO Auto-generated method stub
+		return s1.id - s2.id;
+	}
+	
+}
+
+class SortStudentByName implements Comparator<Student>{
+
+	@Override
+	public int compare(Student s1, Student s2) {
+		// TODO Auto-generated method stub
+		return s1.name.compareTo(s2.name);
+	}
+	
+}
+class SortStudentByPercentage implements Comparator<Student>{
+
+	@Override
+	public int compare(Student s1, Student s2) {
+		// TODO Auto-generated method stub
+		return (int)(s1.percentage - s2.percentage);
+	}
+	
+}

@@ -1,0 +1,25 @@
+package collection_classes;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class DQDemo {
+	public static void main(String[] args) {
+		Deque<Integer> dq = new ArrayDeque<Integer>();
+		dq.add(10);
+		dq.add(56);
+		dq.add(7);
+		System.out.println(dq);
+		dq.addFirst(99);
+		System.out.println(dq);
+		dq.addLast(1);
+		System.out.println(dq);
+		// add, addFirst, addLast
+		// offer, offerFirst, pfferLast
+		
+		// peek, peekFirst, peekLast
+		
+		// remove, removeFirst, removeLast
+		// poll, pollFirst, pollLast
+	}
+}

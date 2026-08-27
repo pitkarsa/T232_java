@@ -1,0 +1,19 @@
+package collection_classes;
+
+public class Employee {
+	int empId, salary;
+	String name;
+	String password;
+	
+	public Employee(){
+		
+	}
+	
+	public Employee(int empId, int salary, String name,	String password) {
+		this.name=name;
+		this.salary=salary;
+		this.password=password;
+		this.empId= empId;
+	}
+	
+}
